@@ -1,0 +1,25 @@
+{
+  "name": "spotify-upgrade-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "axios-cookiejar-support": "^0.5.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cryptr": "^6.0.1",
+    "deferred": "^0.7.11",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.5",
+    "superagent": "^5.2.2",
+    "tough-cookie": "^3.0.1"
+  }
+}

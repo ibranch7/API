@@ -1,0 +1,21 @@
+module.exports = {
+    FAMILY_INVALID_ADDRESS: {type: "FAMILY_INVALID_ADDRESS", message: "Address is invalid"},
+    FAMILY_NO_SLOTS: {type: "FAMILY_NO_SLOTS", message: "No slots available"},
+    FAMILY_HOME_NOT_FOUND: {type: "FAMILY_HOME_NOT_FOUND", message: "Home not found"},
+    LOGIN_INVALID_CSRF: {type: "LOGIN_INVALID_CSRF", message: "The cookie 'csrf_token' was not found"},
+    LOGIN_INVALID_SPDC: {type: "LOGIN_INVALID_SPDC", message: "The cookie 'spdc' was not found"},
+    LOGIN_INVALID_CREDENTIALS: {type: "LOGIN_INVALID_CREDENTIALS", message: "Invalid credentials"},
+    INVALID_PLAN: {type: "INVALID_PLAN", message: "Account is not premium family"},
+    INVALID_PLAN_ALREADY: {type: "INVALID_PLAN_ALREADY", message: "Your account is already premium"},
+    DATABASE_EXISTS: {type: "DATABASE_EXISTS", message: "Database already contains this account"},
+    EXISTS_ACCOUNT: {type: 'EXISTS_ACCOUNT', message: "You must use replacement"},
+    INVALID_KEY: {type: 'INVALID_KEY', message: "Key is invalid"},
+    NOT_EXISTS_ACCOUNT: {type: 'NOT_EXISTS_ACCOUNT', message: "You must use upgrade"},
+    ACCOUNT_REPLACEMENT: {type: "ACCOUNT_REPLACEMENT", message: "You must use replacement"},
+    ACCOUNT_UPDATED: {type: "ACCOUNT_UPDATED", message: "Account updated"},
+    NO_FAMILY_IN_STOCK: {type: "NO_FAMILY_IN_STOCK", message: "No family in stock"},
+    DATABASE_NOT_CONNECTED: {type: "DATABASE_NOT_CONNECTED", message: "Not connected to database"},
+    REPLACEMENT_PASS_REQUIRED: {type: "REPLACEMENT_PASS_REQUIRED", message: "Invalid credentials, you must update your password"},
+    INVALID_BODY: {type: "INVALID_BODY", message: "Invalid body"},
+    KEYS_DATABASE: {type: "KEYS_DATABASE", message: "Unable to get database keys"}
+};
